@@ -84,11 +84,13 @@ body {
   -moz-transition: 0.4s 0.2s;
   transition: 0.4s 0.2s;
 }
+
 .animated-mail .letter .letter-border {
   height: 10px;
   width: 100%;
   background: repeating-linear-gradient(-45deg, #cb5a5e, #cb5a5e 8px, transparent 8px, transparent 18px);
 }
+
 .animated-mail .letter .letter-title {
   margin-top: 10px;
   margin-left: 5px;
@@ -96,6 +98,7 @@ body {
   width: 40%;
   background: #cb5a5e;
 }
+
 .animated-mail .letter .letter-context {
   margin-top: 10px;
   margin-left: 5px;
@@ -103,6 +106,7 @@ body {
   width: 20%;
   background: #cb5a5e;
 }
+
 .animated-mail .letter .letter-stamp {
   margin-top: 30px;
   margin-left: 120px;
@@ -143,9 +147,11 @@ body {
   -moz-transform: rotateX(180deg);
   z-index: 0;
 }
+
 .letter-image:hover .animated-mail .letter {
   height: 180px;
 }
+
 .letter-image:hover .shadow {
   width: 250px;
 }
