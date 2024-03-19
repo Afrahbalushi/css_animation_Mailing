@@ -22,6 +22,7 @@ body {
   -moz-transition: 0.4s;
   transition: 0.4s;
 }
+
 .animated-mail .body {
   position: absolute;
   bottom: 0;
@@ -32,6 +33,7 @@ body {
   border-color: transparent transparent #e95f55 transparent;
   z-index: 2;
 }
+
 .animated-mail .top-fold {
   position: absolute;
   top: 50px;
@@ -48,6 +50,7 @@ body {
   border-color: #cf4a43 transparent transparent transparent;
   z-index: 2;
 }
+
 .animated-mail .back-fold {
   position: absolute;
   bottom: 0;
@@ -56,6 +59,7 @@ body {
   background: #cf4a43;
   z-index: 0;
 }
+
 .animated-mail .left-fold {
   position: absolute;
   bottom: 0;
@@ -66,6 +70,7 @@ body {
   border-color: transparent transparent transparent #e15349;
   z-index: 2;
 }
+
 .animated-mail .letter {
   left: 20px;
   bottom: 0px;
